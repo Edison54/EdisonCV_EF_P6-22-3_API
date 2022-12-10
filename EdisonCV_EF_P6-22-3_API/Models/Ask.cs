@@ -9,6 +9,7 @@ namespace EdisonCV_EF_P6_22_3_API.Models
         {
             Answers = new HashSet<Answer>();
         }
+        
 
         public long AskId { get; set; }
         public DateTime Date { get; set; }
